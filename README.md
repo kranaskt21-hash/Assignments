@@ -62,12 +62,27 @@ The following efficient and popular machine learning models were used:
 
 ---
 
-## Results
-- An accuracy comparison table is generated.
-- The best sampling technique for each model is identified.
-- Ensemble models such as Random Forest and Gradient Boosting show strong performance.
 
 ---
+
+## Results
+
+* An accuracy comparison table is generated.
+* The best sampling technique for each model is identified.
+* Ensemble models such as Random Forest and Gradient Boosting show strong performance.
+
+### Final Result Table
+
+| Model                     | Best Sampling Technique | Accuracy (%) |
+| ------------------------- | ----------------------- | ------------ |
+| Logistic Regression       | Cluster Sampling        | 88.89        |
+| Gradient Boosting         | Cluster Sampling        | 99.69        |
+| Naive Bayes               | Cluster Sampling        | 85.41        |
+| Random Forest             | Cluster Sampling        | 99.39        |
+| K-Nearest Neighbors (KNN) | Bootstrap Sampling      | 96.57        |
+
+---
+
 
 ## Observations
 - Feature engineering before sampling improves stability.
