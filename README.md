@@ -62,14 +62,21 @@ The following efficient and popular machine learning models were used:
 
 ---
 
-
----
-
 ## Results
 
 * An accuracy comparison table is generated.
 * The best sampling technique for each model is identified.
 * Ensemble models such as Random Forest and Gradient Boosting show strong performance.
+
+### Final Accuracy Comparison Table
+
+| Model               | Simple Random | Systematic | Stratified | Cluster | Bootstrap |
+| ------------------- | ------------- | ---------- | ---------- | ------- | --------- |
+| Logistic Regression | 81.39         | 86.63      | 83.97      | 88.89   | 88.33     |
+| Gradient Boosting   | 98.63         | 96.91      | 98.46      | 99.69   | 98.83     |
+| Naive Bayes         | 82.51         | 80.66      | 81.82      | 85.41   | 83.60     |
+| Random Forest       | 97.69         | 98.15      | 97.43      | 99.39   | 98.28     |
+| KNN                 | 94.77         | 88.06      | 93.74      | 95.44   | 96.57     |
 
 ### Final Result Table
 
@@ -83,11 +90,14 @@ The following efficient and popular machine learning models were used:
 
 ---
 
-
 ## Observations
-- Feature engineering before sampling improves stability.
-- Balanced data prevents model failures due to single-class issues.
-- Stratified and Bootstrap sampling preserve class distribution better.
-- Sampling strategy significantly affects model accuracy.
+
+* Feature engineering before sampling improves stability.
+* Balanced data prevents model failures due to single-class issues.
+* Stratified and Bootstrap sampling preserve class distribution better.
+* Sampling strategy significantly affects model accuracy.
 
 ---
+
+
+
